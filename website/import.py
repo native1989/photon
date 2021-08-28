@@ -41,6 +41,8 @@ class NominatimExporter(object):
             name->'name:de' as name_de,
             name->'name:fr' as name_fr,
             name->'name:en' as name_en,
+            name->'name:ru' as name_ru,
+            name->'name:uz' as name_uz,
             name->'short_name' as short_name,
             name->'official_name' as official_name, name->'alt_name' as alt_name,
             (extratags->'place') as extra_place
